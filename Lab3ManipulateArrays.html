@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3 Manipulate arrays</title>
+</head>
+<body>
+
+    <button id="callback-btn">Click Here</button> <!-- Here we are creating this button in order to later use it in our script section of the code -->
+    
+    <script> 
+        document.querySelector("callback-btn") // in this line we are defining this command "document.querySelector" for the computer to match the first element with the indicated selector for them for us to use it in the following part of the code which is gonna be the addEventListener
+            addEventListener("click", function(){ //In this part of the code we are using the method addEventListener in order for us to tell the computer what to do once the event "click happens" and then we are creating the anonymous function taht we are gonna run once the event "click" is triggered 
+                console.log("User has clicked the button!");// this anonymous function as we can see just are telling the machine to display the message "User has clicked the button"
+            })
+    </script>
+</body>
+</html>
